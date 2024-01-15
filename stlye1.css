@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1px;
+    background-color:white;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.tBack-ground {
+    background-color: chocolate;
+    color: whitesmoke;
+}
+.jumbotron h1 {
+    font-size: 20;
+    padding: 60;
+    background-color: none ;
+    text-align: center;
+    color: yellow;
+}
+
+.jUtama span{
+    display: inline-block;
+    transition: .3s;
+}
+
+.jUtama span:hover{
+    color: navy;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+h2, h3{font-family: "Quicksand";
+    color: darkolivegreen;}
+
+ nav a {
+     font-size: 18px;
+     font-weight: 400px;
+     text-decoration: none;
+     color: thistle;
+}
+    
+nav li a:hover{
+     color:rgb(2, 1, 39);
+    }
+
+.profile header {
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    color:darkblue;
+    background-color:rgb(247, 7, 7);
+    text-align: center;
+    font-weight:bold;
+}
+
+.featured-image {
+    position: inline;
+    width: 100%;
+    max-width:700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+main {
+    padding:25px;
+    overflow: auto;
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: purple;
+    text-align: center;
+    color: rgb(16, 1, 56);
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav{
+    background-color: salmon ;
+    border-top: 1px solid whitesmoke;
+    padding: 5px;
+    position: sticky;
+    top: 0%;
+}
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    font-size: 20;
+}
+
+.sidebar img{
+    width: 250px;
+    float: inline-end;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.sidebar h2{
+    font-weight: bold;
+    color: magenta;
+}
+header{
+    display: inline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#tBackground {
+    background-color: orangered;
+    color: lime;
+}
+
+#DarkMode {
+    background-color: orangered;
+    color: lime;
+}
+
+@media only screen and (max-width: 1200px) {
+    aside {
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    #content {
+        width: 100%;
+    }
+}
